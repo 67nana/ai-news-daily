@@ -1,0 +1,10 @@
+{
+  "buildCommand": "pnpm install && pnpm run start",
+  "outputDirectory": ".vercel/output",
+  "routes": [
+    {
+      "src": "/api/push",
+      "dest": "api/push.ts"
+    }
+  ]
+}

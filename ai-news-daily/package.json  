@@ -1,0 +1,15 @@
+{
+  "name": "ai-news-daily",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "pnpm exec tsx scripts/source.ts && pnpm exec tsx scripts/dingtalk.ts"
+  },
+  "devDependencies": {
+    "@napi-rs/pinyin": "^2.0.0",
+    "consola": "^3.2.3",
+    "dayjs": "^1.11.7",
+    "node-fetch": "^3.3.2",
+    "tsx": "^3.12.7"
+  }
+}
